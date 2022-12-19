@@ -101,7 +101,6 @@ export const Home = () => {
                 top
                 remember_state
                 icon="chevron_down"
-                icon_position="right"
               ></Accordion.Provider>
             </div>
           ))}
