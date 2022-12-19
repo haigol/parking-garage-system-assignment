@@ -5,8 +5,6 @@ type StatusProps = {
 }
 
 export const StatusIcon = ({ status }: StatusProps) => {
-    console.log(status);
-
     const statusColors: StatusColors = {
         danger: 'bg-status-danger',
         warning: 'bg-status-warning',

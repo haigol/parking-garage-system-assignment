@@ -1,4 +1,3 @@
-
 export interface IGarage {
     floors: IFloor[]
     name: string,

@@ -4,23 +4,17 @@ import { StatusColors } from "../types"
 
 interface SummaryCardProps {
     statusColor: keyof StatusColors
+    statusText: (statusColor: keyof StatusColors) => string
+    capacity: number,
+    cars: number
 }
 export const SummaryCard = (props: SummaryCardProps) => {
-    const statusText = () => {
-        switch (props.statusColor) {
-            case "danger":
-                return "A few spots left!"
-            case "warning":
-                return "Some spots left!"
-            case "success":
-                return "Many spots left!"
-        }
-    }
+
 
     return (
         <>
             <InfoCard
-                text={statusText()}
+                text={`Currently, the number of available spots is ${props.capacity - props.cars}/${props.capacity}. ${props.statusText(props.statusColor)}`}
                 title={"Welcome to our garage"}
                 icon={() => <div className="pt-3"><StatusIcon status={props.statusColor} /></div>}
             />
