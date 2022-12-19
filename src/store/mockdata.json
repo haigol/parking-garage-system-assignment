@@ -1,0 +1,42 @@
+{
+    "name": "Parkeringshuset Park AS",
+    "floors": [
+        {
+            "floorId": 1,
+            "maxCapacity": 10,
+            "parkedCars": [
+                {
+                    "id": 1,
+                    "numberPlate": "SU12345",
+                    "timeArrived": 1519211809934
+                },
+                {
+                    "id": 2,
+                    "numberPlate": "SD23411",
+                    "timeArrived": 1519211809934
+                },
+                {
+                    "id": 3,
+                    "numberPlate": "TW22222",
+                    "timeArrived": 1519211809934
+                }
+            ]
+        },
+        {
+            "floorId": 2,
+            "maxCapacity": 11,
+            "parkedCars": [
+                {
+                    "id": 4,
+                    "numberPlate": "ST12555",
+                    "timeArrived": 1519211809934
+                },
+                {
+                    "id": 5,
+                    "numberPlate": "LS23222",
+                    "timeArrived": 1519211809934
+                }
+            ]
+        }
+    ]
+}

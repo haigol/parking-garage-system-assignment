@@ -3,14 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { StateProvider } from './store/store'
+import '@dnb/eufemia/style'
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <StateProvider>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </StateProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function
