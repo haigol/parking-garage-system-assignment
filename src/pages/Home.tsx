@@ -29,7 +29,7 @@ export const Home = () => {
     (acc: number, curr: IFloor) => acc + curr.maxCapacity,
     0
   );
-  const totalAvailableCars: number = state.floors.reduce(
+  const totalParkedCars: number = state.floors.reduce(
     (acc: number, curr: IFloor) => acc + curr.parkedCars.length,
     0
   );
@@ -61,10 +61,10 @@ export const Home = () => {
       </div>
       <div className="mb-6">
         <SummaryCard
-          statusColor={statusIconColor(totalCapacity, totalAvailableCars)}
+          statusColor={statusIconColor(totalCapacity, totalParkedCars)}
           statusText={statusText}
           capacity={totalCapacity}
-          cars={totalAvailableCars}
+          cars={totalParkedCars}
         />
       </div>
       <div>
