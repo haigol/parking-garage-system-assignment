@@ -1,243 +1,243 @@
 {
-    "name": "Parkeringshuset Park AS",
-    "floors": [
+  "name": "Parkeringshuset Park AS",
+  "floors": [
+    {
+      "floorId": 1,
+      "maxCapacity": 30,
+      "parkedCars": [
         {
-            "floorId": 1,
-            "maxCapacity": 30,
-            "parkedCars": [
-                {
-                    "id": 1,
-                    "numberPlate": "SU12345",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 2,
-                    "numberPlate": "SD23411",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 3,
-                    "numberPlate": "TW22222",
-                    "timeArrived": 1519211809934
-                }
-            ]
+          "id": 1,
+          "numberPlate": "SU12345",
+          "timeArrived": 1519211809934
         },
         {
-            "floorId": 2,
-            "maxCapacity": 40,
-            "parkedCars": [
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 4,
-                    "numberPlate": "ST12555",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 5,
-                    "numberPlate": "LS23222",
-                    "timeArrived": 1519211809934
-                }
-            ]
+          "id": 2,
+          "numberPlate": "SD23411",
+          "timeArrived": 1519211809934
         },
         {
-            "floorId": 3,
-            "maxCapacity": 20,
-            "parkedCars": [
-                {
-                    "id": 1,
-                    "numberPlate": "SU12345",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 2,
-                    "numberPlate": "SD23411",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 1,
-                    "numberPlate": "SU12345",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 2,
-                    "numberPlate": "SD23411",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 1,
-                    "numberPlate": "SU12345",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 2,
-                    "numberPlate": "SD23411",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 1,
-                    "numberPlate": "SU12345",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 2,
-                    "numberPlate": "SD23411",
-                    "timeArrived": 1519211809934
-                },
-                {
-                    "id": 3,
-                    "numberPlate": "TW22222",
-                    "timeArrived": 1519211809934
-                }
-            ]
+          "id": 3,
+          "numberPlate": "TW22222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 40,
+          "numberPlate": "SU12345",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 41,
+          "numberPlate": "SD23411",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 42,
+          "numberPlate": "SU12345",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 43,
+          "numberPlate": "SD23411",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 44,
+          "numberPlate": "TW22222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 4,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 5,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 6,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 7,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
         }
-    ]
+      ]
+    },
+    {
+      "floorId": 2,
+      "maxCapacity": 30,
+      "parkedCars": [
+        {
+          "id": 8,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 9,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 10,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 11,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 12,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 13,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 14,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 15,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 16,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 17,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 18,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 19,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 20,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 21,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 22,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 23,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 24,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 25,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 26,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 27,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 28,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 29,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 30,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 31,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 32,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        }
+      ]
+    },
+    {
+      "floorId": 3,
+      "maxCapacity": 40,
+      "parkedCars": [
+        {
+          "id": 36,
+          "numberPlate": "SU12345",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 37,
+          "numberPlate": "SD23411",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 38,
+          "numberPlate": "SU12345",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 39,
+          "numberPlate": "SD23411",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 33,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 34,
+          "numberPlate": "ST12555",
+          "timeArrived": 1519211809934
+        },
+        {
+          "id": 35,
+          "numberPlate": "LS23222",
+          "timeArrived": 1519211809934
+        }
+      ]
+    }
+  ]
 }
