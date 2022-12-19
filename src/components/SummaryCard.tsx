@@ -22,7 +22,7 @@ export const SummaryCard = (props: SummaryCardProps) => {
             <InfoCard
                 text={statusText()}
                 title={"Welcome to our garage"}
-                icon={() => <StatusIcon status={props.statusColor} />}
+                icon={() => <div className="pt-3"><StatusIcon status={props.statusColor} /></div>}
             />
         </>
     )

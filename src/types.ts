@@ -52,13 +52,13 @@ const car5: ICar = {
 
 const floor1: IFloor = {
     floorId: 1,
-    maxCapacity: 100,
+    maxCapacity: 3,
     parkedCars: [car1, car2, car3]
 }
 
 const floor2: IFloor = {
     floorId: 2,
-    maxCapacity: 10,
+    maxCapacity: 5,
     parkedCars: [car4, car5, car2, car2]
 }
 

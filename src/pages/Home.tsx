@@ -10,19 +10,19 @@ export const Home = () => {
     const { state, dispatch } = useContext(ParkingContext)
 
 
-    // useEffect(() => {
-    //     fetch("../store/mockdata.json")
-    //         .then((res) => {
-    //             console.log(res.json())
-    //             return res.json();
-    //         })
-    //         .then((data) => {
-    //             dispatch({
-    //                 type: "SET_GARAGE_DATA",
-    //                 payload: data,
-    //             });
-    //         })
-    // }, []);
+    useEffect(() => {
+        fetch("/mockdata.json")
+            .then((res) => {
+                return res.json();
+            })
+            .then((data) => {
+                console.log(data);
+                dispatch({
+                    type: "SET_GARAGE_DATA",
+                    payload: data,
+                });
+            })
+    }, []);
 
     const totalCapacity: number = state.floors.reduce((acc: number, curr: IFloor) =>
         acc + curr.maxCapacity
