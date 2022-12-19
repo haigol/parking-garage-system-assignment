@@ -73,6 +73,7 @@ export const Home = () => {
             <div key={`floor-${index}`}>
               <Accordion
                 remember_state
+                top
                 id="single-accordion"
                 title={
                   <div className="flex w-full justify-between">
@@ -97,11 +98,6 @@ export const Home = () => {
                   )}
                 />
               </Accordion>
-              <Accordion.Provider
-                top
-                remember_state
-                icon="chevron_down"
-              ></Accordion.Provider>
             </div>
           ))}
       </div>
