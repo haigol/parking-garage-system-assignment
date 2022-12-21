@@ -55,7 +55,7 @@ export const Home = () => {
   };
 
   return (
-    <div className="home m-6">
+    <div className="home m-6 container px-10 mx-auto">
       <div className="py-5" data-cy="home-header">
         <H1 size="x-large">{state.name}</H1>
       </div>
